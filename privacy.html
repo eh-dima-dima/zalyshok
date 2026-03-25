@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Zalyshok</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50:  '#f0f4ff',
+              100: '#dde7ff',
+              500: '#4f6ef7',
+              600: '#3b57e8',
+              700: '#2d43cc',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 font-sans antialiased">
+
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
+        </div>
+        <span class="font-bold text-xl text-gray-900">Zalyshok</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-600">
+        <a href="index.html" class="hover:text-brand-600 transition-colors">Home</a>
+        <a href="terms.html" class="hover:text-brand-600 transition-colors">Terms of Service</a>
+        <a href="privacy.html" class="text-brand-600 border-b-2 border-brand-500 pb-0.5">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <div class="bg-gradient-to-br from-brand-50 to-indigo-50 py-16 px-6">
+    <div class="max-w-3xl mx-auto">
+      <span class="inline-block bg-brand-100 text-brand-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider mb-4">Legal</span>
+      <h1 class="text-4xl font-extrabold text-gray-900 mb-3">Privacy Policy</h1>
+      <p class="text-gray-500">Last updated: <strong>March 25, 2026</strong></p>
+      <p class="mt-3 text-sm text-gray-500 max-w-2xl">This Privacy Policy explains how Zalyshok collects, uses, stores, and protects your personal data — including data obtained through the TikTok API. It is designed to comply with the TikTok Developer Platform Policies, GDPR, and other applicable privacy laws.</p>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <main class="max-w-3xl mx-auto px-6 py-16">
+
+    <!-- TOC -->
+    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-12 text-sm">
+      <h2 class="font-bold text-gray-900 mb-3">Table of Contents</h2>
+      <ol class="list-decimal list-inside space-y-1 text-brand-600 columns-1 md:columns-2">
+        <li><a href="#controller" class="hover:underline">Data Controller</a></li>
+        <li><a href="#tiktok-data" class="hover:underline">TikTok Data We Collect</a></li>
+        <li><a href="#other-data" class="hover:underline">Other Data We Collect</a></li>
+        <li><a href="#how-we-use" class="hover:underline">How We Use Your Data</a></li>
+        <li><a href="#legal-basis" class="hover:underline">Legal Basis for Processing</a></li>
+        <li><a href="#no-sale" class="hover:underline">We Do Not Sell Your Data</a></li>
+        <li><a href="#sharing" class="hover:underline">Data Sharing &amp; Third Parties</a></li>
+        <li><a href="#retention" class="hover:underline">Data Retention</a></li>
+        <li><a href="#deletion" class="hover:underline">Data Deletion Requirements</a></li>
+        <li><a href="#security" class="hover:underline">Data Security</a></li>
+        <li><a href="#rights" class="hover:underline">Your Privacy Rights</a></li>
+        <li><a href="#cookies" class="hover:underline">Cookies &amp; Tracking</a></li>
+        <li><a href="#children" class="hover:underline">Children's Privacy</a></li>
+        <li><a href="#tiktok-policy" class="hover:underline">TikTok Privacy Policy Reference</a></li>
+        <li><a href="#changes" class="hover:underline">Changes to This Policy</a></li>
+        <li><a href="#contact" class="hover:underline">Contact Us</a></li>
+      </ol>
+    </div>
+
+    <div class="space-y-12 text-gray-700 leading-relaxed text-[0.97rem]">
+
+      <!-- 1 -->
+      <section id="controller">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">1</span>
+          Data Controller
+        </h2>
+        <p>Zalyshok ("we," "us," or "our") is the data controller responsible for your personal data processed through this platform. For all data protection inquiries, contact us at <a href="mailto:csmanagmant@gmail.com" class="text-brand-600 hover:underline">csmanagmant@gmail.com</a>.</p>
+      </section>
+
+      <!-- 2 -->
+      <section id="tiktok-data">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">2</span>
+          TikTok Data We Collect
+        </h2>
+        <p>When you connect your TikTok account to Zalyshok, we access and store the following data via the TikTok API. This data is collected only after you explicitly grant consent through TikTok's OAuth authorization flow.</p>
+
+        <div class="mt-5 overflow-x-auto rounded-xl border border-gray-200">
+          <table class="w-full text-sm">
+            <thead class="bg-gray-50 border-b border-gray-200">
+              <tr>
+                <th class="text-left px-4 py-3 font-bold text-gray-700">Data Field</th>
+                <th class="text-left px-4 py-3 font-bold text-gray-700">API Scope</th>
+                <th class="text-left px-4 py-3 font-bold text-gray-700">Purpose</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">open_id</td>
+                <td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.basic</span></td>
+                <td class="px-4 py-3 text-gray-600">Unique identifier to link TikTok account to Zalyshok profile</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">display_name</td>
+                <td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.basic</span></td>
+                <td class="px-4 py-3 text-gray-600">Displayed in your Zalyshok and Postiz dashboard</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">avatar_url</td>
+                <td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.basic</span></td>
+                <td class="px-4 py-3 text-gray-600">Displayed in your dashboard for account identification</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">bio_description</td>
+                <td class="px-4 py-3"><span class="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.profile</span></td>
+                <td class="px-4 py-3 text-gray-600">AI bio optimization recommendations</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">profile_web_link</td>
+                <td class="px-4 py-3"><span class="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.profile</span></td>
+                <td class="px-4 py-3 text-gray-600">Profile completeness analysis</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">is_verified</td>
+                <td class="px-4 py-3"><span class="bg-teal-50 text-teal-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.profile</span></td>
+                <td class="px-4 py-3 text-gray-600">Tailored onboarding for verified creators</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">follower_count</td>
+                <td class="px-4 py-3"><span class="bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.stats</span></td>
+                <td class="px-4 py-3 text-gray-600">Analytics dashboard — growth tracking</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">likes_count</td>
+                <td class="px-4 py-3"><span class="bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.stats</span></td>
+                <td class="px-4 py-3 text-gray-600">Analytics dashboard — engagement tracking</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">video_count</td>
+                <td class="px-4 py-3"><span class="bg-green-50 text-green-700 text-xs font-semibold px-2 py-0.5 rounded">user.info.stats</span></td>
+                <td class="px-4 py-3 text-gray-600">Analytics dashboard — content volume tracking</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="px-4 py-3 font-mono text-xs text-gray-800">TikTok API access token</td>
+                <td class="px-4 py-3"><span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2 py-0.5 rounded">OAuth</span></td>
+                <td class="px-4 py-3 text-gray-600">Required to perform API operations on your behalf</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mt-4 text-sm text-gray-500">We do not access, collect, or store your TikTok password, payment information, private messages, or any data beyond the scopes explicitly listed above.</p>
+      </section>
+
+      <!-- 3 -->
+      <section id="other-data">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">3</span>
+          Other Data We Collect
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-sm ml-4">
+          <li><strong>Account data:</strong> Email address and password (for Zalyshok accounts created independently of TikTok login).</li>
+          <li><strong>Usage data:</strong> Pages visited, features used, session duration, and interaction events — used to improve the platform.</li>
+          <li><strong>Content data:</strong> AI-generated scripts, video clips, and scheduling configurations you create within the platform.</li>
+          <li><strong>Device &amp; technical data:</strong> IP address, browser type, operating system, and referral URL — collected automatically via server logs.</li>
+          <li><strong>Communication data:</strong> Emails and messages you send to our support team.</li>
+        </ul>
+      </section>
+
+      <!-- 4 -->
+      <section id="how-we-use">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">4</span>
+          How We Use Your Data
+        </h2>
+        <p>We use your data exclusively for the following purposes:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1 text-sm ml-4">
+          <li>To provide and operate the Zalyshok Service, including AI content generation, video clipping, and TikTok publishing.</li>
+          <li>To power the Postiz analytics dashboard using your TikTok account statistics.</li>
+          <li>To generate personalized AI recommendations for your TikTok profile and content strategy.</li>
+          <li>To authenticate your identity and maintain your account session securely.</li>
+          <li>To send transactional communications (account updates, feature alerts, security notices).</li>
+          <li>To investigate and resolve technical issues or security incidents.</li>
+          <li>To comply with legal obligations and enforce our Terms of Service.</li>
+        </ul>
+        <p class="mt-3"><strong>We do not use your TikTok data for advertising profiling, training AI models for other users, or any purpose not listed here.</strong></p>
+      </section>
+
+      <!-- 5 -->
+      <section id="legal-basis">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">5</span>
+          Legal Basis for Processing (GDPR)
+        </h2>
+        <p>For users in the European Economic Area (EEA), the United Kingdom, or Switzerland, our legal bases for processing personal data are:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1 text-sm ml-4">
+          <li><strong>Contractual necessity:</strong> Processing required to provide the Service you requested (e.g., publishing content to TikTok).</li>
+          <li><strong>Consent:</strong> Processing of TikTok API data, which you authorize through TikTok's OAuth consent flow. You may withdraw consent at any time.</li>
+          <li><strong>Legitimate interests:</strong> Platform security, fraud prevention, and product improvement — balanced against your privacy rights.</li>
+          <li><strong>Legal obligation:</strong> Compliance with applicable laws and regulatory requirements.</li>
+        </ul>
+      </section>
+
+      <!-- 6 -->
+      <section id="no-sale">
+        <div class="bg-green-50 border-2 border-green-400 rounded-2xl p-6">
+          <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+            <span class="w-7 h-7 rounded-full bg-green-100 text-green-700 text-sm font-black flex items-center justify-center">6</span>
+            We Do NOT Sell Your Data
+          </h2>
+          <p class="text-gray-700 font-medium">Zalyshok does not sell, rent, lease, auction, or otherwise transfer your personal data — including any data obtained through the TikTok API — to any third party for commercial purposes.</p>
+          <p class="mt-3 text-gray-700">Your TikTok account data, usage behavior, and content are never used to build advertising profiles, are never shared with data brokers, and are never used to generate revenue through data monetization.</p>
+          <p class="mt-3 text-sm text-green-800 font-semibold">This policy applies unconditionally and does not change based on user geography or subscription tier.</p>
+        </div>
+      </section>
+
+      <!-- 7 -->
+      <section id="sharing">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">7</span>
+          Data Sharing &amp; Third Parties
+        </h2>
+        <p>We share your data with third parties only in the following strictly limited circumstances:</p>
+        <ul class="list-disc list-inside mt-2 space-y-2 text-sm ml-4">
+          <li><strong>Postiz:</strong> Your TikTok <code class="bg-gray-100 text-sm px-1 rounded">open_id</code>, display name, avatar, and statistical data are shared with Postiz solely to power your scheduling and analytics dashboard. Postiz is bound by a Data Processing Agreement (DPA) and is not permitted to use your data for any other purpose.</li>
+          <li><strong>AI model providers:</strong> Content inputs (scripts, prompts) you provide are processed by AI providers under strict data processing agreements. These providers do not receive your TikTok identity data.</li>
+          <li><strong>Cloud infrastructure providers:</strong> Our hosting and database providers process data on our behalf under DPAs. They are not permitted to access or use your data independently.</li>
+          <li><strong>Legal compliance:</strong> We may disclose your data if required by a valid legal process (court order, subpoena, regulatory demand), provided we notify you where legally permissible.</li>
+          <li><strong>Business transfers:</strong> In the event of a merger, acquisition, or sale of assets, your data may be transferred to the acquiring entity, subject to equivalent privacy protections. We will notify you of any such transfer.</li>
+        </ul>
+      </section>
+
+      <!-- 8 -->
+      <section id="retention">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">8</span>
+          Data Retention
+        </h2>
+        <p>We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1 text-sm ml-4">
+          <li><strong>TikTok API data</strong> (profile info, stats): Retained while your account is active and for up to <strong>30 days</strong> after account deletion to allow for dispute resolution.</li>
+          <li><strong>TikTok API access tokens:</strong> Stored only while your TikTok account is connected. Deleted immediately upon account disconnection or revocation.</li>
+          <li><strong>Generated content:</strong> Retained while your account is active, then deleted within <strong>30 days</strong> of account deletion unless you export it beforehand.</li>
+          <li><strong>Analytics data:</strong> Aggregated, anonymized analytics may be retained for up to <strong>12 months</strong> for service improvement.</li>
+          <li><strong>Legal hold:</strong> In cases where data must be retained to comply with legal obligations, we will retain only the minimum required data for the minimum required period.</li>
+        </ul>
+      </section>
+
+      <!-- 9 — DATA DELETION (Critical for TikTok review) -->
+      <section id="deletion">
+        <div class="border-2 border-brand-500 rounded-2xl overflow-hidden">
+          <div class="bg-brand-500 px-6 py-4">
+            <h2 class="text-xl font-extrabold text-white flex items-center gap-2">
+              <span class="w-7 h-7 rounded-full bg-white text-brand-600 text-sm font-black flex items-center justify-center">9</span>
+              Data Deletion Requirements
+            </h2>
+            <p class="text-brand-100 text-sm mt-1">Mandatory TikTok API compliance section — Right to Erasure</p>
+          </div>
+          <div class="p-6 space-y-4 text-gray-700">
+            <p>In compliance with TikTok's API Data Deletion Requirements, applicable data protection laws (including GDPR Article 17 and CCPA), and our commitment to user privacy, you have the <strong>right to request the complete deletion of your TikTok-related data from our servers</strong> at any time.</p>
+
+            <div class="bg-gray-50 rounded-xl p-5 space-y-3 text-sm">
+              <h3 class="font-bold text-gray-900">What data will be deleted:</h3>
+              <ul class="list-disc list-inside space-y-1 ml-2 text-gray-700">
+                <li>Your TikTok <code class="bg-gray-100 px-1 rounded">open_id</code> and all associated profile identifiers</li>
+                <li>Your TikTok display name, avatar URL, and bio data</li>
+                <li>All TikTok statistical data (followers, likes, video count) stored in our databases</li>
+                <li>Your TikTok OAuth access token and refresh token</li>
+                <li>All TikTok content (videos, drafts) stored on our servers that were obtained or generated via the TikTok API</li>
+                <li>Any Postiz analytics records linked to your TikTok account</li>
+              </ul>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl p-5 space-y-3 text-sm">
+              <h3 class="font-bold text-gray-900">How to request deletion — 3 methods:</h3>
+              <ol class="list-decimal list-inside space-y-3 ml-2 text-gray-700">
+                <li>
+                  <strong>In-app (recommended &amp; instant):</strong> Log in to Zalyshok → go to <em>Settings → Connected Accounts → TikTok → Disconnect &amp; Delete Data</em>. This immediately revokes your OAuth token and queues all TikTok data for deletion within <strong>48 hours</strong>.
+                </li>
+                <li>
+                  <strong>Email request:</strong> Send an email to <a href="mailto:csmanagmant@gmail.com" class="text-brand-600 hover:underline font-semibold">csmanagmant@gmail.com</a> with the subject line <strong>"TikTok Data Deletion Request"</strong> and include your registered email address. We will confirm receipt within <strong>72 hours</strong> and complete deletion within <strong>30 days</strong>.
+                </li>
+                <li>
+                  <strong>Account deletion:</strong> Deleting your Zalyshok account (via Settings → Account → Delete Account) will automatically trigger deletion of all associated TikTok data within <strong>30 days</strong>.
+                </li>
+              </ol>
+            </div>
+
+            <div class="bg-gray-50 rounded-xl p-5 space-y-3 text-sm">
+              <h3 class="font-bold text-gray-900">Confirmation &amp; verification:</h3>
+              <ul class="list-disc list-inside space-y-1 ml-2 text-gray-700">
+                <li>We will send you an email confirmation once your data deletion has been completed.</li>
+                <li>For email requests, we may verify your identity before processing the deletion to protect against unauthorized requests.</li>
+                <li>We will also notify Postiz to delete your TikTok data from their systems simultaneously.</li>
+              </ul>
+            </div>
+
+            <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4 text-sm text-yellow-900">
+              <strong>Note:</strong> Deleting your TikTok data from Zalyshok does NOT delete your TikTok account or any content already published to TikTok. For TikTok account deletion, visit your TikTok account settings directly. Additionally, we may retain certain anonymized, non-identifiable records for legal compliance and fraud prevention for up to 90 days after deletion.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10 -->
+      <section id="security">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">10</span>
+          Data Security
+        </h2>
+        <p>We implement industry-standard security measures to protect your data:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1 text-sm ml-4">
+          <li><strong>Encryption in transit:</strong> All data transmitted between your browser, our servers, and the TikTok API is encrypted using TLS 1.2 or higher.</li>
+          <li><strong>Encryption at rest:</strong> Sensitive data, including TikTok API tokens, is encrypted at rest using AES-256.</li>
+          <li><strong>Access controls:</strong> TikTok API tokens are stored in isolated, access-controlled systems and are never exposed in logs or client-side code.</li>
+          <li><strong>Token scoping:</strong> We only request TikTok OAuth scopes that are strictly required for the described features — no excess permissions are requested or stored.</li>
+          <li><strong>Security audits:</strong> We conduct regular security reviews of our API integration and data handling practices.</li>
+          <li><strong>Breach notification:</strong> In the event of a data breach affecting your TikTok data, we will notify you and relevant authorities within 72 hours as required by applicable law.</li>
+        </ul>
+      </section>
+
+      <!-- 11 -->
+      <section id="rights">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">11</span>
+          Your Privacy Rights
+        </h2>
+        <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right of Access</strong>
+            <p class="text-gray-600">Request a copy of all personal data we hold about you, including your TikTok data.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right to Rectification</strong>
+            <p class="text-gray-600">Request correction of inaccurate personal data we hold about you.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right to Erasure</strong>
+            <p class="text-gray-600">Request deletion of your personal data. See Section 9 for the full deletion process.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right to Portability</strong>
+            <p class="text-gray-600">Request your data in a machine-readable format to transfer to another service.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right to Object</strong>
+            <p class="text-gray-600">Object to the processing of your data for specific purposes, including profiling.</p>
+          </div>
+          <div class="bg-gray-50 rounded-xl p-4 border border-gray-200">
+            <strong class="block text-gray-900 mb-1">Right to Withdraw Consent</strong>
+            <p class="text-gray-600">Revoke your TikTok OAuth authorization at any time via our app or TikTok's settings.</p>
+          </div>
+        </div>
+        <p class="mt-4 text-sm text-gray-500">To exercise any of these rights, contact us at <a href="mailto:csmanagmant@gmail.com" class="text-brand-600 hover:underline">csmanagmant@gmail.com</a>. We will respond within 30 days.</p>
+      </section>
+
+      <!-- 12 -->
+      <section id="cookies">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">12</span>
+          Cookies &amp; Tracking
+        </h2>
+        <p>Zalyshok uses the following types of cookies:</p>
+        <ul class="list-disc list-inside mt-2 space-y-1 text-sm ml-4">
+          <li><strong>Essential cookies:</strong> Required for authentication, session management, and core Service functionality. Cannot be disabled.</li>
+          <li><strong>Analytics cookies:</strong> Used to understand how users interact with the platform (e.g., page views, feature usage). These are anonymized and do not track individuals across websites.</li>
+        </ul>
+        <p class="mt-3 text-sm text-gray-600">We do not use third-party advertising cookies, retargeting pixels, or cross-site tracking technologies. You can manage cookie preferences in your browser settings.</p>
+      </section>
+
+      <!-- 13 -->
+      <section id="children">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">13</span>
+          Children's Privacy
+        </h2>
+        <p>Zalyshok is not directed to individuals under the age of 18. We do not knowingly collect personal data from minors. If we become aware that we have inadvertently collected data from a person under 18, we will delete that data immediately. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:csmanagmant@gmail.com" class="text-brand-600 hover:underline">csmanagmant@gmail.com</a>.</p>
+      </section>
+
+      <!-- 14 -->
+      <section id="tiktok-policy">
+        <div class="bg-gray-900 text-white rounded-2xl p-6">
+          <h2 class="text-xl font-extrabold mb-3 flex items-center gap-2">
+            <span class="w-7 h-7 rounded-full bg-gray-700 text-white text-sm font-black flex items-center justify-center">14</span>
+            TikTok Privacy Policy Reference
+          </h2>
+          <p class="text-gray-300 text-sm leading-relaxed">
+            Zalyshok's collection and use of data obtained through the TikTok API is governed not only by this Privacy Policy but also by <strong class="text-white">TikTok's Privacy Policy</strong>, available at:
+          </p>
+          <div class="mt-3 bg-gray-800 rounded-lg px-4 py-3 font-mono text-sm text-green-400">
+            https://www.tiktok.com/legal/privacy-policy
+          </div>
+          <p class="mt-4 text-gray-300 text-sm">
+            By connecting your TikTok account to Zalyshok, you acknowledge that TikTok's own privacy practices apply to the data TikTok holds about you, and that TikTok's Privacy Policy governs TikTok's collection of your data independently of Zalyshok.
+          </p>
+          <p class="mt-3 text-gray-300 text-sm">
+            Zalyshok's use of data obtained from TikTok is limited to the purposes described in this Privacy Policy and does not exceed the permissions explicitly granted by you during the TikTok OAuth authorization process. We are committed to full compliance with the <strong class="text-white">TikTok Developer Platform Policy</strong> and the <strong class="text-white">TikTok API Terms of Service</strong>.
+          </p>
+        </div>
+      </section>
+
+      <!-- 15 -->
+      <section id="changes">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">15</span>
+          Changes to This Policy
+        </h2>
+        <p>We may update this Privacy Policy periodically to reflect changes in our practices, technology, or legal requirements. We will update the "Last updated" date at the top of this page for all changes. For material changes that affect how we handle your TikTok data, we will provide at least 14 days' advance notice via email before the changes take effect. Your continued use of the Service after the effective date constitutes acceptance of the revised policy.</p>
+      </section>
+
+      <!-- 16 -->
+      <section id="contact">
+        <h2 class="text-xl font-extrabold text-gray-900 mb-3 flex items-center gap-2">
+          <span class="w-7 h-7 rounded-full bg-brand-100 text-brand-700 text-sm font-black flex items-center justify-center">16</span>
+          Contact Us
+        </h2>
+        <p>For any privacy-related questions, data access requests, or deletion requests, please contact our Privacy Team:</p>
+        <div class="mt-3 bg-gray-50 border border-gray-200 rounded-xl p-5 text-sm space-y-1">
+          <p><strong>Zalyshok Privacy Team</strong></p>
+          <p>Email: <a href="mailto:csmanagmant@gmail.com" class="text-brand-600 hover:underline">csmanagmant@gmail.com</a></p>
+          <p>Subject for TikTok data deletion: <code class="bg-gray-100 px-1 rounded">"TikTok Data Deletion Request"</code></p>
+          <p>Response time: Within 72 hours for acknowledgment; within 30 days for full resolution.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-10 px-6 text-sm mt-8">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <span>&copy; 2026 Zalyshok. All rights reserved.</span>
+      <nav class="flex gap-6">
+        <a href="index.html" class="hover:text-white transition-colors">Home</a>
+        <a href="terms.html" class="hover:text-white transition-colors">Terms of Service</a>
+        <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
